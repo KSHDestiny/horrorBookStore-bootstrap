@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&family=Montserrat&family=Tourney:wght@300;400&family=Water+Brush&display=swap');
+.logotext {
+    font-family: 'Water Brush'
+}
+
+.banner {
+    height: 100vh;
+    width: 100%;
+    background-image: url("/assets/images/background.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-hover {
+    opacity: 0;
+    transition: 2s;
+}
+
+.banner-hover:hover {
+    opacity: 0.25;
+}
+
+.img-shadow {
+    box-shadow: 10px 10px 25px;
+    cursor: pointer;
+}
+
+.img-shadow-sm {
+    box-shadow: 5px 5px 10px;
+    cursor: pointer;
+}
+
+.pointer {
+    cursor: pointer;
+}
+
+.postcard {
+    background-image: url(/assets/images/bg1.jpg);
+    background-size: contain;
+}
+
+.icon:hover {
+    transform: rotate(360deg);
+}
+
+.icon {
+    transition: 0.5s;
+}
